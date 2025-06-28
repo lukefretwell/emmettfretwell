@@ -1,0 +1,141 @@
+{
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Emmett Fretwell Photography",
+    "url": "https://emmettfretwell.com",
+    "logo": "https://emmettfretwell.com/img/nature/sample.jpg",
+    "image": "https://emmettfretwell.com/img/nature/sample.jpg",
+    "description": "Photographer specializing in portraits, weddings, and lifestyle photography in Lafayette, CA.",
+    "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Lafayette",
+        "addressRegion": "CA",
+        "addressCountry": "US"
+    },
+    "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "37.8858",
+        "longitude": "-122.1180"
+    },
+    "founder": {
+        "@type": "Person",
+        "name": "Emmett Fretwell",
+        "jobTitle": "Photographer",
+        "description": "High school student and photographer in Lafayette, CA, specializing in wildlife/nature photography and expanding into sporting events and special occasions."
+    },
+    "sameAs": [
+        "https://www.instagram.com/emmett.fretwell"
+    ],
+    "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Photography Services",
+        "itemListElement": [
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Wedding Photography",
+                    "description": "Complete wedding day coverage from preparation to reception, capturing every precious moment with artistic flair."
+                },
+                "price": "2500",
+                "priceCurrency": "USD"
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Portrait Sessions",
+                    "description": "Headshots, family portraits, and individual sessions in studio or outdoor locations with styling guidance."
+                },
+                "price": "350",
+                "priceCurrency": "USD"
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Event Coverage",
+                    "description": "Corporate events, parties, and special occasions documented with candid and posed photography."
+                },
+                "price": "150",
+                "priceCurrency": "USD"
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Hourly Event Coverage",
+                    "description": "Corporate events, parties, and special occasions documented with candid and posed photography.",
+                    "priceSpecification": {
+                        "@type": "UnitPriceSpecification",
+                        "priceCurrency": "USD",
+                        "price": "25",
+                        "unitCode": "HUR"
+                    }
+                }
+            }
+        ]
+    },
+    "areaServed": {
+        "@type": "City",
+        "name": "Lafayette",
+        "containedIn": {
+            "@type": "State",
+            "name": "California"
+        }
+    },
+    "hasPart": [
+        {
+            "@type": "ImageGallery",
+            "name": "Portfolio - Nature",
+            "description": "Scenic landscapes and the beauty of the natural world.",
+            "image": [
+                "https://emmettfretwell.com/img/nature/1.jpg",
+                "https://emmettfretwell.com/img/nature/2.jpg",
+                "https://emmettfretwell.com/img/nature/3.jpg",
+                "https://emmettfretwell.com/img/nature/4.jpg",
+                "https://emmettfretwell.com/img/nature/5.jpg",
+                "https://emmettfretwell.com/img/nature/6.jpg",
+                "https://emmettfretwell.com/img/nature/7.jpg",
+                "https://emmettfretwell.com/img/nature/8.jpg"
+            ],
+            "thumbnailUrl": "https://emmettfretwell.com/img/nature/sample.jpg"
+        },
+        {
+            "@type": "ImageGallery",
+            "name": "Portfolio - People",
+            "description": "Candid portraits and authentic human moments captured.",
+            "image": [
+                "https://emmettfretwell.com/img/people/1.jpg",
+                "https://emmettfretwell.com/img/people/2.jpg",
+                "https://emmettfretwell.com/img/people/3.jpg",
+                "https://emmettfretwell.com/img/people/4.jpg",
+                "https://emmettfretwell.com/img/people/5.jpg",
+                "https://emmettfretwell.com/img/people/6.jpg",
+                "https://emmettfretwell.com/img/people/7.jpg"
+            ],
+            "thumbnailUrl": "https://emmettfretwell.com/img/people/sample.jpg"
+        },
+        {
+            "@type": "ImageGallery",
+            "name": "Portfolio - Other",
+            "description": "Creative compositions and miscellaneous artistic work.",
+            "image": [
+                "https://emmettfretwell.com/img/other/1.jpg"
+            ],
+            "thumbnailUrl": "https://emmettfretwell.com/img/other/sample.jpg"
+        }
+    ],
+    "mainEntity": {
+        "@type": "Person",
+        "name": "Emmett Fretwell",
+        "description": "High school student and photographer in Lafayette, CA. Specializes in wildlife/nature photography with an interest in expanding to sporting events and special occasions."
+    },
+    "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer support",
+        "availableLanguage": "English",
+        "email": "",
+        "telephone": ""
+    }
+}
