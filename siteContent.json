@@ -97,7 +97,10 @@
                 "https://emmettfretwell.com/img/nature/5.jpg",
                 "https://emmettfretwell.com/img/nature/6.jpg",
                 "https://emmettfretwell.com/img/nature/7.jpg",
-                "https://emmettfretwell.com/img/nature/8.jpg"
+                "https://emmettfretwell.com/img/nature/8.jpg",
+                "https://emmettfretwell.com/img/nature/9.jpg",
+                "https://emmettfretwell.com/img/nature/10.jpg",
+                "https://emmettfretwell.com/img/nature/11.jpg"
             ],
             "thumbnailUrl": "https://emmettfretwell.com/img/nature/sample.jpg"
         },
@@ -121,7 +124,14 @@
             "name": "Portfolio - Other",
             "description": "Creative compositions and miscellaneous artistic work.",
             "image": [
-                "https://emmettfretwell.com/img/other/1.jpg"
+                "https://emmettfretwell.com/img/other/1.jpg",
+                "https://emmettfretwell.com/img/other/2.jpg",
+                "https://emmettfretwell.com/img/other/3.jpg",
+                "https://emmettfretwell.com/img/other/4.jpg",
+                "https://emmettfretwell.com/img/other/5.jpg",
+                "https://emmettfretwell.com/img/other/6.jpg",
+                "https://emmettfretwell.com/img/other/7.jpg",
+                "https://emmettfretwell.com/img/other/8.jpg"
             ],
             "thumbnailUrl": "https://emmettfretwell.com/img/other/sample.jpg"
         }
