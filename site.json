@@ -1,0 +1,136 @@
+{
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Emmett Fretwell Photography",
+    "url": "https://emmettfretwell.com",
+    "logo": "https://emmettfretwell.com/img/og.png",
+    "image": "https://emmettfretwell.com/img/og.png",
+    "description": "Professional photographer in Lafayette, CA specializing in wildlife, nature, sports events, portraits, and special occasions. Serving the San Francisco East Bay area including Oakland, Berkeley, Orinda, Moraga, and Walnut Creek.",
+    "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Lafayette",
+        "addressRegion": "CA",
+        "addressCountry": "US"
+    },
+    "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "37.8858",
+        "longitude": "-122.1180"
+    },
+    "founder": {
+        "@type": "Person",
+        "name": "Emmett Fretwell",
+        "jobTitle": "Photographer"
+    },
+    "sameAs": [
+        "https://www.instagram.com/emmett.fretwell"
+    ],
+    "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Photography Services",
+        "itemListElement": [
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Wildlife & Nature Photography",
+                    "description": "Outdoor photography capturing wildlife, landscapes, and natural environments.",
+                    "image": "/img/nature/feature.png",
+                    "image-description": "Sports Event Photography",
+                    "category": "Portrait Photography"
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Sports Event Photography",
+                    "description": "Action shots and team photos for sporting events, games, and athletic competitions.",
+                    "image": "/img/nature/feature.png",
+                    "image-description": "Sports Event Photography",
+                    "category": "Portrait Photography"
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Portrait Photography",
+                    "description": "Headshots, family portraits, and individual sessions in studio or outdoor locations.",
+                    "image": "/img/nature/feature.png",
+                    "image-description": "Sports Event Photography",
+                    "category": "Portrait Photography"
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Event Photography",
+                    "description": "Special occasions, parties, and celebrations documented with professional photography.",
+                    "image": "/img/nature/feature.png",
+                    "image-description": "Sports Event Photography",
+                    "category": "Portrait Photography"
+                }
+            }
+        ]
+    },
+    "areaServed": [
+        {
+            "@type": "Place",
+            "name": "San Francisco Bay Area",
+            "containedIn": {
+                "@type": "State",
+                "name": "California"
+            }
+        },
+        {
+            "@type": "Place",
+            "name": "East Bay",
+            "containedIn": {
+                "@type": "State",
+                "name": "California"
+            }
+        },
+        {
+            "@type": "City",
+            "name": "Lafayette",
+            "containedIn": {
+                "@type": "State",
+                "name": "California"
+            }
+        },
+        {
+            "@type": "City",
+            "name": "Oakland"
+        },
+        {
+            "@type": "City",
+            "name": "Berkeley"
+        },
+        {
+            "@type": "City",
+            "name": "Orinda"
+        },
+        {
+            "@type": "City",
+            "name": "Moraga"
+        },
+        {
+            "@type": "City",
+            "name": "Walnut Creek"
+        }
+    ],
+    "about": {
+        "title": "About",
+        "description": "I'm Emmett Fretwell, a high school student in Lafayette, CA. I am a photographer who is always looking to improve my skills. My main goal as a photographer is to freeze time and capture a story that one may not see on the surface. I would love to photograph your special occasions and sporting events.",
+        "instagram": "https://www.instagram.com/emmett.fretwell"
+    },
+    "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer service",
+        "availableLanguage": "English",
+        "email": "emmett.fretwell@gmail.com",
+        "title": "Contact"
+    }
+}
