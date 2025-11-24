@@ -1,0 +1,42 @@
+{% if page.layout == "home" %}
+  <div class="container border-bottom mt-5 pb-5 mb-5">
+    <div class="row">
+      <div class="col-12">
+        <h1 class="h2 mb-3">{{ page.title }}</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-sm-2 d-none d-sm-block"></div>
+      <div class="col-12 col-sm-8 col-md-8 col-lg-8 col-xl-8">
+        <p>{{ page.description }}</p>
+        {% if page.button %}
+          <a
+            class="btn btn-primary mt-2"
+            href="{{ site.baseurl }}{{ page.button-link }}"
+            role="button">{{ page.button }}</a>
+        {% endif %}
+      </div>
+      <div class="col-12 col-sm-2 d-none d-sm-block"></div>
+    </div>
+  </div>
+{% elsif page.layout == "photos" %}
+  <div class="pb-3 pt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h1 class="mb-3">{{ page.title }}</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+{% else %}
+  <div class="pb-3 pt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h1 class="mb-3">{{ page.title }}</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endif %}

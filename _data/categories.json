@@ -1,0 +1,26 @@
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "Category",
+            "name": "Wildlife & Nature",
+            "description": "",
+            "keywords": "",
+            "thumbnailUrl": "/nature/featured.jpg"
+        },
+        {
+            "@type": "Category",
+            "name": "People",
+            "description": "",
+            "keywords": "",
+            "thumbnailUrl": "/people/featured.jpg"
+        },
+        {
+            "@type": "Category",
+            "name": "Other",
+            "description": "",
+            "keywords": "",
+            "thumbnailUrl": "/other/featured.jpg"
+        }
+    ]
+}

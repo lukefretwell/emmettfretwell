@@ -1,0 +1,14 @@
+docs_list_title: services
+docs:
+
+- title: Events
+  description: "Special occasions, parties, and celebrations."
+  icon: birthday-cake
+
+- title: Sports
+  description: "Action shots and team photos for sporting events, games, and competitions."
+  icon: medal
+
+- title: Portraits
+  description: "Headshots, family portraits, and individual sessions."
+  icon: image-portrait

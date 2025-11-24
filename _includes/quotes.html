@@ -1,0 +1,9 @@
+{% for item in site.data.quotes.docs %}
+  <blockquote class="blockquote">
+    <p class="mb-0">
+      "{{ item.quote }}"</p>
+    <p class="text-secondary small">
+      &mdash; {{ item.name }}
+    </p>
+  </blockquote>
+{% endfor %}

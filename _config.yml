@@ -1,0 +1,75 @@
+# General
+title: Emmett Fretwell
+description: "I'm a photographer specializing in wildlife, nature, sports events, portraits, and special occasions. Serving the San Francisco East Bay area including Oakland, Berkeley, Orinda, Moraga, Lafayette, and Walnut Creek."
+url: https://emmettfretwell.com
+
+# Social
+
+instagram: https://www.instagram.com/emmett.fretwell
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  
+# Markdown settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# Date/time
+date: "%B %-d, %Y"
+timezone: America/Los_Angeles
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+      img-path: "pages"
+  - scope:
+      path: ""
+      type: "notes"
+    values:
+      label: "Posts"
+      layout: "post"
+      img-path: "posts"
+      folder: "posts"
+      parent: "posts"
+  - scope:
+      path: "_work"
+      type: "work"
+    values:
+      label: "Work"
+      layout: "work"
+      folder: "work"
+
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: /:title
+  posts:
+    output: true
+    permalink: /posts/:title
+  work:
+    output: true
+    permalink: /work/:title
+
+# Exclude
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - _site
+  - .sass-cache
+  - .DS_Store
+  - .gitignore
+  - .jekyll-metadata
+  - .env
+  - config.local.yml
+  - config.production.yml

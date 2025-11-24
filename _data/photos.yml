@@ -1,0 +1,14 @@
+docs_list_title: photos
+docs:
+
+- title: Wildlife & Nature
+  img: /nature/featured.jpg
+  img-alt: "A photo of a bird."
+
+- title: People
+  img: /people/featured.jpg
+  img-alt: "A photo of a person."
+
+- title: Other
+  img: /other/featured.jpg
+  img-alt: "A photo of something else."

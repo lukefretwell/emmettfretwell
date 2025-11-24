@@ -1,0 +1,45 @@
+---
+layout: photo
+---
+
+{% include header.html %}
+{% include nav.html %}
+<main>
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-12">
+        <figure>
+          <img
+            src="{{ site.baseurl }}/assets/img/{{ page.img-path }}/{{ page.img-og }}"
+            alt="{{ page.img-alt }}"
+            class="border-dark">
+          {% if page.img-caption %}
+            <figcaption>
+              <p class="small p-0 m-0">
+                <small>
+                  {{ page.img-caption }} &copy; {{ site.title }} {{ "now" | date: "%Y" }}
+                </small>
+              </p>
+            </figcaption>
+          {% endif %}
+        </figure>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="mb-4">{catgory}</h2>
+      </div>
+    </div>
+  </div>
+  {% include photos-category.html %}
+  <div class="container mt-4 mb-5">
+    <div class="row">
+      <div class="col-sm-12">
+        <a href="{{ site.baseurl }}/photos" class="btn btn-primary mt-3">Photos</a>
+      </div>
+    </div>
+  </div>
+</main>
+{% include footer.html %}

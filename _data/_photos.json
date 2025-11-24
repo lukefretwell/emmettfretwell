@@ -1,0 +1,55 @@
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "Photograph",
+            "name": "Golden Hour Beach",
+            "description": "Waves crashing on sandy beach during golden hour with palm trees in the background",
+            "keywords": "beach, sunset, golden hour, ocean, waves, palm trees, tropical, seascape, Wildlife & Nature photography",
+            "category": [
+                "Wildlife & Nature",
+                "People",
+                "Other"
+            ],
+            "contentUrl": "/people/featured.jpg",
+            "thumbnailUrl": "/people/featured.jpg",
+            "creator": {
+                "@type": "Person",
+                "name": "Emmett Fretwell",
+                "url": "https://www.emmettfretwell.com"
+            },
+            "copyrightHolder": {
+                "@type": "Person",
+                "name": "Emmett Fretwell",
+                "url": "https://www.emmettfretwell.com"
+            },
+            "license": "All Rights Reserved",
+            "creditText": "Photo by Emmett Fretwell"
+        },
+        {
+            "@type": "Photograph",
+            "name": "City Lights at Night",
+            "description": "Urban skyline with illuminated skyscrapers reflecting in the river below",
+            "keywords": "city, skyline, night photography, urban, skyscrapers, cityscape, lights, reflection, architecture",
+            "category": [
+                "Wildlife & Nature",
+                "People",
+                "Other"
+            ],
+            "contentUrl": "/people/featured.jpg",
+            "thumbnailUrl": "/people/featured.jpg",
+            "creator": {
+                "@type": "Person",
+                "name": "Emmett Fretwell",
+                "url": "https://www.emmettfretwell.com"
+            },
+            "copyrightHolder": {
+                "@type": "Person",
+                "name": "Emmett Fretwell",
+                "url": "https://www.emmettfretwell.com"
+            },
+            "license": "All Rights Reserved",
+            "creditText": "Photo by Emmett Fretwell"
+        }
+    ]
+}

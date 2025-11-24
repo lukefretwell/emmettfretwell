@@ -1,0 +1,17 @@
+docs_list_title: nav
+docs:
+
+- title: Photos
+  url: /photos
+
+- title: Services
+  url: /services
+
+- title: What they say
+  url: /what-they-say
+
+- title: About
+  url: /about
+
+- title: Contact
+  url: /contact

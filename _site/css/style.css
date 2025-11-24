@@ -1,0 +1,250 @@
+/* Fonts */
+
+@font-face {
+    font-family: "Open Sans Bold";
+    src: url("/assets/fonts/open-sans/OpenSans-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Open Sans Regular";
+    src: url("/assets/fonts/open-sans/OpenSans-Regular.ttf") format("truetype");
+}
+
+
+/* Root */
+
+:root {
+    --color-1: #000000;
+    --color-2: #ffffff;
+    --color-3: #0050d8;
+    --color-4: #5942d2;
+    --color-5: #ccc;
+    --color-6: #ede3ff;
+    --color-7: #cfc4fd;
+    --color-8: #3d2c9d;
+    --font-1: "Open Sans Bold", sans-serif;
+    --font-2: "Open Sans Regular", sans-serif;
+    --font-3: "Open Sans Regular", monospace;
+    --size-1: 0;
+    --size-2: 0.0625rem;
+    --size-3: .5rem;
+    --size-4: 1rem;
+    --size-5: 1.3rem;
+    --size-6: 2rem;
+    --size-7: 4.675rem;
+    --size-8: 8rem;
+    --size-9: 15rem;
+    --bs-body-font-size: 1.2rem;
+    --bs-body-font-weight: 400;
+    --bs-body-line-height: 1.6;
+    --bs-body-color: #000000;
+    --bs-box-shadow: 0 0.3rem .3rem rgba(0, 0, 0, 0.10);
+    --bs-dark-body-color: #ffffff;
+    --bs-border-color: #e6e6e6;
+    --bs-border-color-dark: #000000;
+    --bs-border-radius: .0;
+    --bs-font-serif: "Pt Serif Regular", Times, Baskerville, "Times New Roman", "Baskerville Serif";
+    --bs-font-sans-serif: "Open Sans Regular", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --bs-font-monospace: "Roboto Mono", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+
+/* Links */
+
+main a, main a:visited {
+    text-decoration: underline;
+}
+
+main a:hover, .card a, .card a:visited, .primary {
+    text-decoration: none;
+}
+
+/* Colors ------- */
+
+/* Primary */
+
+a, a:hover {
+    color: var(--color-3);
+}
+
+/* Secondary */
+
+a:visited {
+    color: var(--color-4);
+}
+
+/* Tertiary */
+
+.primary, .card a, .card a:visited, .connect a, .connect a:visited, .connect a:hover, .connect a[href^="mailto"], .connect a[href^="mailto"]:visited, .connect a[href^="mailto"]:hover, .connect-footer a, .connect-footer a:visited, .connect-footer a:hover, .connect-footer a[href^="mailto"], .connect-footer a[href^="mailto"]:visited, .connect-footer a[href^="mailto"]:hover {
+    color: var(--color-1);
+}
+
+/* Light */
+
+.footer, .bg-light {
+    background: var(--color-2);
+    background-color: var(--color-2) !important;
+}
+
+/* Buttons */
+
+.btn-primary, a.btn-primary, a.btn-primary:visited, a.btn-primary:active, .btn-primary:active {
+    background: var(--color-1);
+    border: var(--size-2) solid var(--color-1);
+    border-radius: .2rem;
+    color: var(--color-2);
+    font-family: var(--font-3);
+    text-decoration: none;
+}
+
+a.btn-primary, a.btn-primary:visited {
+    /*   box-shadow: 5px 5px 0 0 rgba(27, 27, 27, 1);*/
+}
+
+.btn-primary:hover, a.btn-primary:hover {
+    background: var(--color-1) !important;
+    color: var(--color-2) !important;
+    border: var(--size-2) solid var(--color-1);
+}
+
+.btn-primary:active, a.btn-primary:active {
+    background: var(--color-1) !important;
+    color: var(--color-2) !important;
+}
+
+/* Dark */
+
+.jumbotron h1, .jumbotron .lead, body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .display-1, .display-2, .display-3, .display-4, .display-5, .display-6, .navbar, .navbar-toggler, a.navbar-brand, .navbar li a, .navbar li.active a, .navbar li.active a:visited, a.nav-link, a.nav-item, .navbar-light .navbar-nav .nav-link, footer, footer a, footer a:visited {
+    color: var(--color-1);
+}
+
+/* Fonts ------- */
+
+/* Headings */
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .display-1, .display-2, .display-3, display-4, .display-5, .display-6 {
+    letter-spacing: -.02em;
+}
+
+/* Lead */
+
+.lead {
+    font-family: var(--font-3);
+}
+
+.post p, .post li {
+    font-family: var(--font-2);
+}
+
+/* Mono */
+.breadcrumb-item, .card-text, .navbar li a, .navbar li.active a, .navbar li.active a:visited, a.nav-link, a.nav-item, .navbar-light .navbar-nav .nav-link {
+    font-family: var(--font-3);
+}
+
+/* Regular */
+
+body, .text-muted {
+    font-family: var(--font-2);
+}
+
+.text-secondary, .text-body-secondary {
+    color: var(--color-1) !important;
+    font-family: var(--font-3);
+}
+
+/* Bold */
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .display-1, .display-2, .display-3, .display-4, .display-5, .display-6, .navbar, .navbar-toggler {
+    font-family: var(--font-1);
+}
+
+/* Extra bold */
+
+a.navbar-brand, .navbar-brand {
+    color: var(--color-1) !important;
+    font-family: var(--font-1);
+    letter-spacing: -.02em;
+    padding: var(--size-3) var(--size-4);
+}
+
+/* Sizes */
+
+.jumbotron-home {
+    height: 70vh;
+}
+
+blockquote p {
+    margin-bottom: var(--size-5);
+    margin-top: var(--size-5);
+}
+
+/* Cards */
+
+.card-deck {
+    margin-top: var(--size-1);
+}
+
+.card {
+    border: none;
+    width: 100%;
+    padding: 0;
+    margin-bottom: var(--size-3) !important;
+}
+
+/* Fig */
+
+figcaption {
+    background-color: var(--color-1);
+    color: var(--color-2);
+    margin-bottom: 3rem;
+    padding: 1rem;
+}
+
+/* Selection */
+
+::selection {
+    background-color: var(--color-1);
+    color: var(--color-2);
+}
+
+/* Images */
+
+.drop-shadow {
+    filter: drop-shadow(-5px 5px 0 var(--color-1));
+}
+
+img {
+    height: auto;
+    width: 100%;
+}
+
+/* Nav */
+
+.navbar-light .navbar-toggler {
+    border-color: var(--color-2);
+}
+
+.navbar .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='4' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* Footer */
+
+footer {
+    margin-top: var(--size-4);
+}
+
+footer a, footer a:visited, footer a:hover, footer a[href^="mailto"], footer a[href^="mailto"]:visited, footer a[href^="mailto"]:hover {
+    text-decoration: none;
+}
+
+/* Dark */
+
+.bg-dark {
+    background-color: var(--color-1) !important;
+    color: var(--color-2) !important;
+}
+
+.border-dark {
+    border: 1px solid var(--color-1) !important;
+}
