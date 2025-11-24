@@ -77,9 +77,9 @@
 
 <!-- Dublin Core Metadata -->
 
-<meta name="dc.date" content="2025-10-27T08:59:28-07:00">
-<meta name="dc.date.created" content="2025-10-27T08:59:28-07:00">
-<meta name="dcterms.created" content="2025-10-27T08:59:28-07:00">
+<meta name="dc.date" content="2025-11-24T15:32:20-08:00">
+<meta name="dc.date.created" content="2025-11-24T15:32:20-08:00">
+<meta name="dcterms.created" content="2025-11-24T15:32:20-08:00">
 
 
 
@@ -272,100 +272,19 @@
     </div>
   </div>
 </footer>
-<!-- Dark mode and back-to-top functionality -->
-<script>
-  // Dark mode functionality
-  let colorTheme = 'light'; // Default theme
+<script
+  src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+  integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+  crossorigin="anonymous"></script>
 
-  // Initialize dark mode based on system preference
-  function initializeDarkMode() {
-    const htmlElement = document.querySelector('html');
-    const darkToggle = document.querySelector('div.dark-toggle');
-    
-    // Only initialize if dark toggle exists on this page
-    if (!darkToggle) {
-        return; // Silently skip if elements don't exist
-    }
-    
-    // Check system preference
-    const prefersDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
-    
-    if (prefersDark) {
-        colorTheme = 'dark';
-        htmlElement.classList.add('dark');
-        darkToggle.innerHTML = '<i class="fa-solid fa-sun"></i>';
-    } else {
-        darkToggle.innerHTML = '<i class="fa-solid fa-moon"></i>';
-    }
-  }
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
-  // Dark mode toggle functionality
-  function setupDarkModeToggle() {
-    const darkToggle = document.querySelector('div.dark-toggle');
-    
-    // Only setup if toggle exists on this page
-    if (!darkToggle) {
-        return; // Silently skip if element doesn't exist
-    }
-    
-    darkToggle.addEventListener('click', function() {
-        const htmlElement = document.querySelector('html');
-        
-        if (!htmlElement) return;
-        
-        // Toggle dark mode
-        htmlElement.classList.toggle('dark');
-        
-        // Update button icon and theme
-        if (htmlElement.classList.contains('dark')) {
-            darkToggle.innerHTML = '<i class="fa-solid fa-sun"></i>';
-            colorTheme = 'dark';
-        } else {
-            darkToggle.innerHTML = '<i class="fa-solid fa-moon"></i>';
-            colorTheme = 'light';
-        }
-    });
-  }
+<script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+  integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+  crossorigin="anonymous"></script>
 
-  // Back to top button functionality
-  function scrollFunction() {
-    const backToTopBtn = document.getElementById("backToTopBtn");
-    
-    if (!backToTopBtn) {
-        return; // Silently fail if button doesn't exist
-    }
-    
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        backToTopBtn.style.display = "block";
-    } else {
-        backToTopBtn.style.display = "none";
-    }
-  }
-
-  // Smooth scroll to top function
-  function scrollToTop() {
-    window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
-    });
-  }
-
-  // Setup scroll event listener
-  function setupScrollListener() {
-    window.addEventListener('scroll', scrollFunction);
-  }
-
-  // Initialize all functionality when DOM is ready
-  function initializeScripts() {
-    initializeDarkMode();
-    setupDarkModeToggle();
-    setupScrollListener();
-  }
-
-  // Initialize when DOM is ready
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', initializeScripts);
-  } else {
-    initializeScripts();
-  }
-</script></body></html>
+<script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+  crossorigin="anonymous"></script></body></html>
