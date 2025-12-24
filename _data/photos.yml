@@ -5,6 +5,14 @@ docs:
   img: /nature/featured.jpg
   img-alt: "A photo of a bird."
 
+- title: Sports
+  img: /sports/featured.jpg
+  img-alt: "A photo of a person."
+
+- title: Occasions
+  img: /occasions/featured.jpg
+  img-alt: "A photo of a person."
+
 - title: People
   img: /people/featured.jpg
   img-alt: "A photo of a person."
