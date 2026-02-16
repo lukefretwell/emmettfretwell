@@ -51,10 +51,6 @@
 
 /* Links */
 
-main a, main a:visited {
-    text-decoration: underline;
-}
-
 main a:hover, .card a, .card a:visited, .primary {
     text-decoration: none;
 }
@@ -241,10 +237,6 @@ img {
 
 footer {
     margin-top: var(--size-4);
-}
-
-footer a, footer a:visited, footer a:hover, footer a[href^="mailto"], footer a[href^="mailto"]:visited, footer a[href^="mailto"]:hover {
-    text-decoration: none;
 }
 
 /* Dark */

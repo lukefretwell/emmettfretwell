@@ -4,7 +4,8 @@
       <div class="row">
         <div class="col-12">
           <h2 class="mb-4">Contact</h2>
-          <p>Contact me to learn more about my services and pricing.</p>
+          <p>Contact me to learn more about my
+            <a href="{{ site.baseurl }}/services">services</a>.</p>
           <a href="{{ site.baseurl }}/contact" class="btn btn-primary mt-3">Contact</a>
         </div>
       </div>
@@ -16,7 +17,8 @@
         <p class="small">
           <small>
             &copy;
-            {{ site.title }} {{ "now" | date: "%Y" }}
+            <a href="{{ site.baseurl }}">{{ site.title }}</a>
+            {{ "now" | date: "%Y" }}
           </small>
         </p>
       </div>
