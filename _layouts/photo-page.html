@@ -2,7 +2,7 @@
 {% include nav.html %}
 
   <main>
-  <div class="container mt-5">
+  <div class="container mt-2">
     <div class="row">
       <div class="col-12">
         <!-- Photo Display -->
@@ -16,11 +16,7 @@
             &copy; {{ page.creator.title }} {{ "now" | date: "%Y" }}
           </p>
         <!--
-          <figcaption><h1 class="h3 mt-3">{{ page.title }}</h1>        {% if page.description != "" %}<p class="text-muted">{{ page.description }}</p>        {% endif %}        <p class="small text-muted mb-0">
-        {{ page.creditText }} &copy; {{ page.creator.title }} {{ "now" | date: "%Y" }}
-                </p>
-                <p class="small text-muted">{{ page.license }}</p>
-                </figcaption>
+          <figcaption><h1 class="h3 mt-3">{{ page.title }}</h1>        {% if page.description != "" %}<p class="text-muted">{{ page.description }}</p>        {% endif %}        <p class="small text-muted mb-0">{{ page.creditText }} &copy; {{ page.creator.title }} {{ "now" | date: "%Y" }}        </p>        <p class="small text-muted">{{ page.license }}</p>        </figcaption>
         -->
         </figure>
       </div>
@@ -32,7 +28,7 @@
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <h2 class="mb-4 text-white">More from {{ page.category[0] }}</h2>
+          <h2 class="mb-4 text-white">More {{ page.category[0] }}</h2>
         </div>
       </div>
 
@@ -82,8 +78,12 @@
           {% when "Other" %}
             {% assign category_url = "other" %}
         {% endcase %}
-        <a href="{{ site.baseurl }}/{{ category_url }}" class="btn btn-primary">Back to {{ page.category[0] }}</a>
-        <a href="{{ site.baseurl }}/photos" class="btn btn-outline-secondary ms-2">All Photos</a>
+        <p>
+          <a href="{{ site.baseurl }}/{{ category_url }}" class="btn btn-primary">Back to {{ page.category[0] }}</a>
+        </p>
+        <p>
+          <a href="{{ site.baseurl }}/photos" class="btn btn-outline-secondary">All Photos</a>
+        </p>
       </div>
     </div>
   </div>

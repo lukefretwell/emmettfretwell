@@ -112,6 +112,15 @@ a.btn-primary, a.btn-primary:visited {
     color: var(--color-2) !important;
 }
 
+.btn-outline-secondary, a.btn-outline-secondary, a.btn-outline-secondary:visited, a.btn-outline-secondary:active, .btn-outline-secondary:active {
+    background: transparent;
+    border: var(--size-2) solid var(--color-1);
+    border-radius: .2rem;
+    color: var(--color-1);
+    font-family: var(--font-3);
+    text-decoration: none;
+}
+
 /* Dark */
 
 .jumbotron h1, .jumbotron .lead, body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .display-1, .display-2, .display-3, .display-4, .display-5, .display-6, .navbar, .navbar-toggler, a.navbar-brand, .navbar li a, .navbar li.active a, .navbar li.active a:visited, a.nav-link, a.nav-item, .navbar-light .navbar-nav .nav-link, footer, footer a, footer a:visited {
