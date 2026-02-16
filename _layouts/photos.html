@@ -1,11 +1,19 @@
 ---
-layout: photos
+layout: wrapper
 ---
 
 {% include header.html %}
 {% include nav.html %}
 <main>
   {% include jumbotron.html %}
-  {% include photos.html %}
+  <div class="bg-dark">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+  </div>
 </main>
 {% include footer.html %}

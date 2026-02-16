@@ -1,40 +1,32 @@
-{
-    "@context": "https://schema.org",
-    "@graph": [
-        {
-            "@type": "Category",
-            "name": "Wildlife & Nature",
-            "description": "",
-            "keywords": "Wildlife, Nature, Animals, Plants",
-            "thumbnailUrl": "/nature/featured.jpg"
-        },
-        {
-            "@type": "Category",
-            "name": "Sports",
-            "description": "",
-            "keywords": "Baseball, Basketball, Football, Soccer, Tennis, Golf, Running, Swimming",
-            "thumbnailUrl": "/sports/featured.jpg"
-        },
-        {
-            "@type": "Category",
-            "name": "Occasions",
-            "description": "",
-            "keywords": "Weddings, Birthdays, Anniversaries, Graduations, Parties",
-            "thumbnailUrl": "/occasions/featured.jpg"
-        },
-        {
-            "@type": "Category",
-            "name": "People",
-            "description": "",
-            "keywords": "Portraits, Headshots, Families, Individuals",
-            "thumbnailUrl": "/people/featured.jpg"
-        },
-        {
-            "@type": "Category",
-            "name": "Other",
-            "description": "",
-            "keywords": "Miscellaneous, Uncategorized",
-            "thumbnailUrl": "/other/featured.jpg"
-        }
-    ]
-}
+[
+    {
+        "title": "Wildlife & Nature",
+        "img": "/nature/featured.jpg",
+        "img-alt": "A bird flying.",
+        "url": "nature"
+    },
+    {
+        "title": "Sports",
+        "img": "/sports/featured.jpg",
+        "img-alt": "A person pitch a baseball.",
+        "url": "sports"
+    },
+    {
+        "title": "Occasions",
+        "img": "/occasions/featured.jpg",
+        "img-alt": "A photo of a person.",
+        "url": "occasions"
+    },
+    {
+        "title": "People",
+        "img": "/people/featured.jpg",
+        "img-alt": "Two men laughing.",
+        "url": "people"
+    },
+    {
+        "title": "Other",
+        "img": "/other/featured.jpg",
+        "img-alt": "Military airplane flying.",
+        "url": "other"
+    }
+]

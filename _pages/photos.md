@@ -1,5 +1,8 @@
 ---
 layout: photos
 title: Photos
-description: ""
+description: "Emmett Fretwell's photography portfolio."
 ---
+<main>
+  {% include photos.html %}
+</main>

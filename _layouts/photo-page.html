@@ -1,0 +1,92 @@
+{% include header.html %}
+{% include nav.html %}
+
+  <main>
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-12">
+        <!-- Photo Display -->
+        <figure class="text-center">
+          <img
+            src="{{ site.baseurl }}/assets/img/pages{{ page.contentUrl }}"
+            alt="{{ page.title }}"
+            class="img-fluid border-dark mb-3"
+            style="max-height: 100vh; width: auto;">
+          <p class="small text-muted mb-0">
+            &copy; {{ page.creator.title }} {{ "now" | date: "%Y" }}
+          </p>
+        <!--
+          <figcaption><h1 class="h3 mt-3">{{ page.title }}</h1>        {% if page.description != "" %}<p class="text-muted">{{ page.description }}</p>        {% endif %}        <p class="small text-muted mb-0">
+        {{ page.creditText }} &copy; {{ page.creator.title }} {{ "now" | date: "%Y" }}
+                </p>
+                <p class="small text-muted">{{ page.license }}</p>
+                </figcaption>
+        -->
+        </figure>
+      </div>
+    </div>
+  </div>
+
+  <!-- Category and Navigation -->
+  <div class="bg-dark mt-4 pt-5 pb-4 px-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="mb-4 text-white">More from {{ page.category[0] }}</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        {% assign photo_count = 0 %}
+        {% for photo in site.data.photos %}
+          {% if photo.category contains page.category[0] and photo.title != page.title and photo_count < 4 %}
+            <div class="col-12 col-sm-6 col-md-3 mb-4">
+              <div class="card bg-dark h-100">
+                <a
+                  href="{{ site.baseurl }}/photo/{{ photo.title }}"
+                  class="d-block"
+                  style="height: 250px; overflow: hidden;">
+                  <img
+                    src="{{ site.baseurl }}/assets/img/pages{{ photo.contentUrl }}"
+                    alt="{{ photo.title }}"
+                    class="border-dark"
+                    style="width: 100%; height: 100%; object-fit: cover;"
+                    loading="lazy">
+                </a>
+              <!--
+                <div class="card-body">  <h5 class="card-title text-white h6">{{ photo.title }}</h5></div>
+              -->
+              </div>
+            </div>
+            {% assign photo_count = photo_count | plus: 1 %}
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+  <!-- Back to Category Button -->
+  <div class="container mt-4 mb-5">
+    <div class="row">
+      <div class="col-12">
+        {% assign category_url = page.category[0] | downcase | replace: " ", "-" | replace: "&", "" | strip %}
+        {% case page.category[0] %}
+          {% when "Wildlife & Nature" %}
+            {% assign category_url = "nature" %}
+          {% when "Sports" %}
+            {% assign category_url = "sports" %}
+          {% when "Occasions" %}
+            {% assign category_url = "occasions" %}
+          {% when "People" %}
+            {% assign category_url = "people" %}
+          {% when "Other" %}
+            {% assign category_url = "other" %}
+        {% endcase %}
+        <a href="{{ site.baseurl }}/{{ category_url }}" class="btn btn-primary">Back to {{ page.category[0] }}</a>
+        <a href="{{ site.baseurl }}/photos" class="btn btn-outline-secondary ms-2">All Photos</a>
+      </div>
+    </div>
+  </div>
+</main>
+
+{% include footer.html %}

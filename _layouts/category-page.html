@@ -1,0 +1,45 @@
+{% include header.html %}
+{% include nav.html %}
+
+<main>
+  {% include jumbotron.html %}
+
+  <div class="bg-dark pt-5 pb-4 px-3">
+    <div class="container">
+
+      <div class="row">
+        {% for photo in site.data.photos %}
+          {% if photo.category contains page.category %}
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+              <div class="card bg-dark h-100">
+                <a
+                  href="{{ site.baseurl }}/photo/{{ photo.title }}"
+                  class="d-block"
+                  style="height: 250px; overflow: hidden;">
+                  <img
+                    src="{{ site.baseurl }}/assets/img/pages{{ photo.contentUrl }}"
+                    alt="{{ photo.title }}"
+                    class="border-dark"
+                    style="width: 100%; height: 100%; object-fit: cover;"
+                    loading="lazy">
+                </a>
+              <!--
+                <div class="card-body">  <h5 class="card-title text-white">{{ photo.title }}</h5>
+                {% if photo.description != "" %}
+                  <p class="card-text text-muted">{{ photo.description }}</p>
+                {% endif %}
+                <p class="card-text">
+                  <small class="text-muted">{{ photo.creditText }}</small>
+                </p>
+              </div>
+              -->
+              </div>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</main>
+
+{% include footer.html %}

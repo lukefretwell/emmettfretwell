@@ -1,0 +1,830 @@
+[
+    {
+        "@type": "Photograph",
+        "title": "nature1",
+        "description": "",
+        "keywords": "Wildlife & Nature photography",
+        "category": [
+            "Wildlife & Nature"
+        ],
+        "contentUrl": "/nature/1.jpg",
+        "thumbnailUrl": "/nature/featured.jpg",
+        "creator": {
+            "@type": "Person",
+            "title": "Emmett Fretwell",
+            "url": "https://www.emmettfretwell.com"
+        },
+        "copyrightHolder": {
+            "@type": "Person",
+            "title": "Emmett Fretwell",
+            "url": "https://www.emmettfretwell.com"
+        },
+        "license": "All Rights Reserved",
+        "creditText": "Photo by Emmett Fretwell"
+    },
+    {
+        "@type": "Photograph",
+        "title": "nature2",
+        "description": "",
+        "keywords": "Wildlife & Nature photography",
+        "category": [
+            "Wildlife & Nature"
+        ],
+        "contentUrl": "/nature/2.jpg",
+        "thumbnailUrl": "/nature/featured.jpg",
+        "creator": {
+            "@type": "Person",
+            "title": "Emmett Fretwell",
+            "url": "https://www.emmettfretwell.com"
+        },
+        "copyrightHolder": {
+            "@type": "Person",
+            "title": "Emmett Fretwell",
+            "url": "https://www.emmettfretwell.com"
+        },
+        "license": "All Rights Reserved",
+        "creditText": "Photo by Emmett Fretwell"
+    },
+    {
+        "@type": "Photograph",
+        "title": "nature3",
+        "description": "",
+        "keywords": "Wildlife & Nature photography",
+        "category": [
+            "Wildlife & Nature"
+        ],
+        "contentUrl": "/nature/3.jpg",
+        "thumbnailUrl": "/nature/featured.jpg",
+        "creator": {
+            "@type": "Person",
+            "title": "Emmett Fretwell",
+            "url": "https://www.emmettfretwell.com"
+        },
+        "copyrightHolder": {
+            "@type": "Person",
+            "title": "Emmett Fretwell",
+            "url": "https://www.emmettfretwell.com"
+        },
+        "license": "All Rights Reserved",
+        "creditText": "Photo by Emmett Fretwell"
+    },
+    {
+        "@type": "Photograph",
+        "title": "nature4",
+        "description": "",
+        "keywords": "Wildlife & Nature photography",
+        "category": [
+            "Wildlife & Nature"
+        ],
+        "contentUrl": "/nature/4.jpg",
+        "thumbnailUrl": "/nature/featured.jpg",
+        "creator": {
+            "@type": "Person",
+            "title": "Emmett Fretwell",
+            "url": "https://www.emmettfretwell.com"
+        },
+        "copyrightHolder": {
+            "@type": "Person",
+            "title": "Emmett Fretwell",
+            "url": "https://www.emmettfretwell.com"
+        },
+        "license": "All Rights Reserved",
+        "creditText": "Photo by Emmett Fretwell"
+    },
+    {
+        "@type": "Photograph",
+        "title": "nature5",
+        "description": "",
+        "keywords": "Wildlife & Nature photography",
+        "category": [
+            "Wildlife & Nature"
+        ],
+        "contentUrl": "/nature/5.jpg",
+        "thumbnailUrl": "/nature/featured.jpg",
+        "creator": {
+            "@type": "Person",
+            "title": "Emmett Fretwell",
+            "url": "https://www.emmettfretwell.com"
+        },
+        "copyrightHolder": {
+            "@type": "Person",
+            "title": "Emmett Fretwell",
+            "url": "https://www.emmettfretwell.com"
+        },
+        "license": "All Rights Reserved",
+        "creditText": "Photo by Emmett Fretwell"
+    },
+    {
+        "@type": "Photograph",
+        "title": "nature6",
+        "description": "",
+        "keywords": "Wildlife & Nature photography",
+        "category": [
+            "Wildlife & Nature"
+        ],
+        "contentUrl": "/nature/6.jpg",
+        "thumbnailUrl": "/nature/featured.jpg",
+        "creator": {
+            "@type": "Person",
+            "title": "Emmett Fretwell",
+            "url": "https://www.emmettfretwell.com"
+        },
+        "copyrightHolder": {
+            "@type": "Person",
+            "title": "Emmett Fretwell",
+            "url": "https://www.emmettfretwell.com"
+        },
+        "license": "All Rights Reserved",
+        "creditText": "Photo by Emmett Fretwell"
+    },
+    {
+        "@type": "Photograph",
+        "title": "nature7",
+        "description": "",
+        "keywords": "Wildlife & Nature photography",
+        "category": [
+            "Wildlife & Nature"
+        ],
+        "contentUrl": "/nature/7.jpg",
+        "thumbnailUrl": "/nature/featured.jpg",
+        "creator": {
+            "@type": "Person",
+            "title": "Emmett Fretwell",
+            "url": "https://www.emmettfretwell.com"
+        },
+        "copyrightHolder": {
+            "@type": "Person",
+            "title": "Emmett Fretwell",
+            "url": "https://www.emmettfretwell.com"
+        },
+        "license": "All Rights Reserved",
+        "creditText": "Photo by Emmett Fretwell"
+    },
+    {
+        "@type": "Photograph",
+        "title": "nature8",
+        "description": "",
+        "keywords": "Wildlife & Nature photography",
+        "category": [
+            "Wildlife & Nature"
+        ],
+        "contentUrl": "/nature/8.jpg",
+        "thumbnailUrl": "/nature/featured.jpg",
+        "creator": {
+            "@type": "Person",
+            "title": "Emmett Fretwell",
+            "url": "https://www.emmettfretwell.com"
+        },
+        "copyrightHolder": {
+            "@type": "Person",
+            "title": "Emmett Fretwell",
+            "url": "https://www.emmettfretwell.com"
+        },
+        "license": "All Rights Reserved",
+        "creditText": "Photo by Emmett Fretwell"
+    },
+    {
+        "@type": "Photograph",
+        "title": "nature9",
+        "description": "",
+        "keywords": "Wildlife & Nature photography",
+        "category": [
+            "Wildlife & Nature"
+        ],
+        "contentUrl": "/nature/9.jpg",
+        "thumbnailUrl": "/nature/featured.jpg",
+        "creator": {
+            "@type": "Person",
+            "title": "Emmett Fretwell",
+            "url": "https://www.emmettfretwell.com"
+        },
+        "copyrightHolder": {
+            "@type": "Person",
+            "title": "Emmett Fretwell",
+            "url": "https://www.emmettfretwell.com"
+        },
+        "license": "All Rights Reserved",
+        "creditText": "Photo by Emmett Fretwell"
+    },
+    {
+        "@type": "Photograph",
+        "title": "nature10",
+        "description": "",
+        "keywords": "Wildlife & Nature photography",
+        "category": [
+            "Wildlife & Nature"
+        ],
+        "contentUrl": "/nature/10.jpg",
+        "thumbnailUrl": "/nature/featured.jpg",
+        "creator": {
+            "@type": "Person",
+            "title": "Emmett Fretwell",
+            "url": "https://www.emmettfretwell.com"
+        },
+        "copyrightHolder": {
+            "@type": "Person",
+            "title": "Emmett Fretwell",
+            "url": "https://www.emmettfretwell.com"
+        },
+        "license": "All Rights Reserved",
+        "creditText": "Photo by Emmett Fretwell"
+    },
+    {
+        "@type": "Photograph",
+        "title": "nature11",
+        "description": "",
+        "keywords": "Wildlife & Nature photography",
+        "category": [
+            "Wildlife & Nature"
+        ],
+        "contentUrl": "/nature/11.jpg",
+        "thumbnailUrl": "/nature/featured.jpg",
+        "creator": {
+            "@type": "Person",
+            "title": "Emmett Fretwell",
+            "url": "https://www.emmettfretwell.com"
+        },
+        "copyrightHolder": {
+            "@type": "Person",
+            "title": "Emmett Fretwell",
+            "url": "https://www.emmettfretwell.com"
+        },
+        "license": "All Rights Reserved",
+        "creditText": "Photo by Emmett Fretwell"
+    },
+    {
+        "@type": "Photograph",
+        "title": "sports1",
+        "description": "",
+        "keywords": "Sports photography",
+        "category": [
+            "Sports"
+        ],
+        "contentUrl": "/sports/1.jpg",
+        "thumbnailUrl": "/sports/featured.jpg",
+        "creator": {
+            "@type": "Person",
+            "title": "Emmett Fretwell",
+            "url": "https://www.emmettfretwell.com"
+        },
+        "copyrightHolder": {
+            "@type": "Person",
+            "title": "Emmett Fretwell",
+            "url": "https://www.emmettfretwell.com"
+        },
+        "license": "All Rights Reserved",
+        "creditText": "Photo by Emmett Fretwell"
+    },
+    {
+        "@type": "Photograph",
+        "title": "sports2",
+        "description": "",
+        "keywords": "Sports photography",
+        "category": [
+            "Sports"
+        ],
+        "contentUrl": "/sports/2.jpg",
+        "thumbnailUrl": "/sports/featured.jpg",
+        "creator": {
+            "@type": "Person",
+            "title": "Emmett Fretwell",
+            "url": "https://www.emmettfretwell.com"
+        },
+        "copyrightHolder": {
+            "@type": "Person",
+            "title": "Emmett Fretwell",
+            "url": "https://www.emmettfretwell.com"
+        },
+        "license": "All Rights Reserved",
+        "creditText": "Photo by Emmett Fretwell"
+    },
+    {
+        "@type": "Photograph",
+        "title": "sports3",
+        "description": "",
+        "keywords": "Sports photography",
+        "category": [
+            "Sports"
+        ],
+        "contentUrl": "/sports/3.jpg",
+        "thumbnailUrl": "/sports/featured.jpg",
+        "creator": {
+            "@type": "Person",
+            "title": "Emmett Fretwell",
+            "url": "https://www.emmettfretwell.com"
+        },
+        "copyrightHolder": {
+            "@type": "Person",
+            "title": "Emmett Fretwell",
+            "url": "https://www.emmettfretwell.com"
+        },
+        "license": "All Rights Reserved",
+        "creditText": "Photo by Emmett Fretwell"
+    },
+    {
+        "@type": "Photograph",
+        "title": "sports4",
+        "description": "",
+        "keywords": "Sports photography",
+        "category": [
+            "Sports"
+        ],
+        "contentUrl": "/sports/4.jpg",
+        "thumbnailUrl": "/sports/featured.jpg",
+        "creator": {
+            "@type": "Person",
+            "title": "Emmett Fretwell",
+            "url": "https://www.emmettfretwell.com"
+        },
+        "copyrightHolder": {
+            "@type": "Person",
+            "title": "Emmett Fretwell",
+            "url": "https://www.emmettfretwell.com"
+        },
+        "license": "All Rights Reserved",
+        "creditText": "Photo by Emmett Fretwell"
+    },
+    {
+        "@type": "Photograph",
+        "title": "sports5",
+        "description": "",
+        "keywords": "Sports photography",
+        "category": [
+            "Sports"
+        ],
+        "contentUrl": "/sports/5.jpg",
+        "thumbnailUrl": "/sports/featured.jpg",
+        "creator": {
+            "@type": "Person",
+            "title": "Emmett Fretwell",
+            "url": "https://www.emmettfretwell.com"
+        },
+        "copyrightHolder": {
+            "@type": "Person",
+            "title": "Emmett Fretwell",
+            "url": "https://www.emmettfretwell.com"
+        },
+        "license": "All Rights Reserved",
+        "creditText": "Photo by Emmett Fretwell"
+    },
+    {
+        "@type": "Photograph",
+        "title": "sports6",
+        "description": "",
+        "keywords": "Sports photography",
+        "category": [
+            "Sports"
+        ],
+        "contentUrl": "/sports/6.jpg",
+        "thumbnailUrl": "/sports/featured.jpg",
+        "creator": {
+            "@type": "Person",
+            "title": "Emmett Fretwell",
+            "url": "https://www.emmettfretwell.com"
+        },
+        "copyrightHolder": {
+            "@type": "Person",
+            "title": "Emmett Fretwell",
+            "url": "https://www.emmettfretwell.com"
+        },
+        "license": "All Rights Reserved",
+        "creditText": "Photo by Emmett Fretwell"
+    },
+    {
+        "@type": "Photograph",
+        "title": "other1",
+        "description": "",
+        "keywords": "Other photography",
+        "category": [
+            "Other"
+        ],
+        "contentUrl": "/other/1.jpg",
+        "thumbnailUrl": "/other/featured.jpg",
+        "creator": {
+            "@type": "Person",
+            "title": "Emmett Fretwell",
+            "url": "https://www.emmettfretwell.com"
+        },
+        "copyrightHolder": {
+            "@type": "Person",
+            "title": "Emmett Fretwell",
+            "url": "https://www.emmettfretwell.com"
+        },
+        "license": "All Rights Reserved",
+        "creditText": "Photo by Emmett Fretwell"
+    },
+    {
+        "@type": "Photograph",
+        "title": "other2",
+        "description": "",
+        "keywords": "Other photography",
+        "category": [
+            "Other"
+        ],
+        "contentUrl": "/other/2.jpg",
+        "thumbnailUrl": "/other/featured.jpg",
+        "creator": {
+            "@type": "Person",
+            "title": "Emmett Fretwell",
+            "url": "https://www.emmettfretwell.com"
+        },
+        "copyrightHolder": {
+            "@type": "Person",
+            "title": "Emmett Fretwell",
+            "url": "https://www.emmettfretwell.com"
+        },
+        "license": "All Rights Reserved",
+        "creditText": "Photo by Emmett Fretwell"
+    },
+    {
+        "@type": "Photograph",
+        "title": "other3",
+        "description": "",
+        "keywords": "Other photography",
+        "category": [
+            "Other"
+        ],
+        "contentUrl": "/other/3.jpg",
+        "thumbnailUrl": "/other/featured.jpg",
+        "creator": {
+            "@type": "Person",
+            "title": "Emmett Fretwell",
+            "url": "https://www.emmettfretwell.com"
+        },
+        "copyrightHolder": {
+            "@type": "Person",
+            "title": "Emmett Fretwell",
+            "url": "https://www.emmettfretwell.com"
+        },
+        "license": "All Rights Reserved",
+        "creditText": "Photo by Emmett Fretwell"
+    },
+    {
+        "@type": "Photograph",
+        "title": "other4",
+        "description": "",
+        "keywords": "Other photography",
+        "category": [
+            "Other"
+        ],
+        "contentUrl": "/other/4.jpg",
+        "thumbnailUrl": "/other/featured.jpg",
+        "creator": {
+            "@type": "Person",
+            "title": "Emmett Fretwell",
+            "url": "https://www.emmettfretwell.com"
+        },
+        "copyrightHolder": {
+            "@type": "Person",
+            "title": "Emmett Fretwell",
+            "url": "https://www.emmettfretwell.com"
+        },
+        "license": "All Rights Reserved",
+        "creditText": "Photo by Emmett Fretwell"
+    },
+    {
+        "@type": "Photograph",
+        "title": "other5",
+        "description": "",
+        "keywords": "Other photography",
+        "category": [
+            "Other"
+        ],
+        "contentUrl": "/other/5.jpg",
+        "thumbnailUrl": "/other/featured.jpg",
+        "creator": {
+            "@type": "Person",
+            "title": "Emmett Fretwell",
+            "url": "https://www.emmettfretwell.com"
+        },
+        "copyrightHolder": {
+            "@type": "Person",
+            "title": "Emmett Fretwell",
+            "url": "https://www.emmettfretwell.com"
+        },
+        "license": "All Rights Reserved",
+        "creditText": "Photo by Emmett Fretwell"
+    },
+    {
+        "@type": "Photograph",
+        "title": "other6",
+        "description": "",
+        "keywords": "Other photography",
+        "category": [
+            "Other"
+        ],
+        "contentUrl": "/other/6.jpg",
+        "thumbnailUrl": "/other/featured.jpg",
+        "creator": {
+            "@type": "Person",
+            "title": "Emmett Fretwell",
+            "url": "https://www.emmettfretwell.com"
+        },
+        "copyrightHolder": {
+            "@type": "Person",
+            "title": "Emmett Fretwell",
+            "url": "https://www.emmettfretwell.com"
+        },
+        "license": "All Rights Reserved",
+        "creditText": "Photo by Emmett Fretwell"
+    },
+    {
+        "@type": "Photograph",
+        "title": "other7",
+        "description": "",
+        "keywords": "Other photography",
+        "category": [
+            "Other"
+        ],
+        "contentUrl": "/other/7.jpg",
+        "thumbnailUrl": "/other/featured.jpg",
+        "creator": {
+            "@type": "Person",
+            "title": "Emmett Fretwell",
+            "url": "https://www.emmettfretwell.com"
+        },
+        "copyrightHolder": {
+            "@type": "Person",
+            "title": "Emmett Fretwell",
+            "url": "https://www.emmettfretwell.com"
+        },
+        "license": "All Rights Reserved",
+        "creditText": "Photo by Emmett Fretwell"
+    },
+    {
+        "@type": "Photograph",
+        "title": "other8",
+        "description": "",
+        "keywords": "Other photography",
+        "category": [
+            "Other"
+        ],
+        "contentUrl": "/other/8.jpg",
+        "thumbnailUrl": "/other/featured.jpg",
+        "creator": {
+            "@type": "Person",
+            "title": "Emmett Fretwell",
+            "url": "https://www.emmettfretwell.com"
+        },
+        "copyrightHolder": {
+            "@type": "Person",
+            "title": "Emmett Fretwell",
+            "url": "https://www.emmettfretwell.com"
+        },
+        "license": "All Rights Reserved",
+        "creditText": "Photo by Emmett Fretwell"
+    },
+    {
+        "@type": "Photograph",
+        "title": "people1",
+        "description": "",
+        "keywords": "People photography",
+        "category": [
+            "People"
+        ],
+        "contentUrl": "/people/1.jpg",
+        "thumbnailUrl": "/people/featured.jpg",
+        "creator": {
+            "@type": "Person",
+            "title": "Emmett Fretwell",
+            "url": "https://www.emmettfretwell.com"
+        },
+        "copyrightHolder": {
+            "@type": "Person",
+            "title": "Emmett Fretwell",
+            "url": "https://www.emmettfretwell.com"
+        },
+        "license": "All Rights Reserved",
+        "creditText": "Photo by Emmett Fretwell"
+    },
+    {
+        "@type": "Photograph",
+        "title": "people2",
+        "description": "",
+        "keywords": "People photography",
+        "category": [
+            "People"
+        ],
+        "contentUrl": "/people/2.jpg",
+        "thumbnailUrl": "/people/featured.jpg",
+        "creator": {
+            "@type": "Person",
+            "title": "Emmett Fretwell",
+            "url": "https://www.emmettfretwell.com"
+        },
+        "copyrightHolder": {
+            "@type": "Person",
+            "title": "Emmett Fretwell",
+            "url": "https://www.emmettfretwell.com"
+        },
+        "license": "All Rights Reserved",
+        "creditText": "Photo by Emmett Fretwell"
+    },
+    {
+        "@type": "Photograph",
+        "title": "people3",
+        "description": "",
+        "keywords": "People photography",
+        "category": [
+            "People"
+        ],
+        "contentUrl": "/people/3.jpg",
+        "thumbnailUrl": "/people/featured.jpg",
+        "creator": {
+            "@type": "Person",
+            "title": "Emmett Fretwell",
+            "url": "https://www.emmettfretwell.com"
+        },
+        "copyrightHolder": {
+            "@type": "Person",
+            "title": "Emmett Fretwell",
+            "url": "https://www.emmettfretwell.com"
+        },
+        "license": "All Rights Reserved",
+        "creditText": "Photo by Emmett Fretwell"
+    },
+    {
+        "@type": "Photograph",
+        "title": "people4",
+        "description": "",
+        "keywords": "People photography",
+        "category": [
+            "People"
+        ],
+        "contentUrl": "/people/4.jpg",
+        "thumbnailUrl": "/people/featured.jpg",
+        "creator": {
+            "@type": "Person",
+            "title": "Emmett Fretwell",
+            "url": "https://www.emmettfretwell.com"
+        },
+        "copyrightHolder": {
+            "@type": "Person",
+            "title": "Emmett Fretwell",
+            "url": "https://www.emmettfretwell.com"
+        },
+        "license": "All Rights Reserved",
+        "creditText": "Photo by Emmett Fretwell"
+    },
+    {
+        "@type": "Photograph",
+        "title": "people5",
+        "description": "",
+        "keywords": "People photography",
+        "category": [
+            "People"
+        ],
+        "contentUrl": "/people/5.jpg",
+        "thumbnailUrl": "/people/featured.jpg",
+        "creator": {
+            "@type": "Person",
+            "title": "Emmett Fretwell",
+            "url": "https://www.emmettfretwell.com"
+        },
+        "copyrightHolder": {
+            "@type": "Person",
+            "title": "Emmett Fretwell",
+            "url": "https://www.emmettfretwell.com"
+        },
+        "license": "All Rights Reserved",
+        "creditText": "Photo by Emmett Fretwell"
+    },
+    {
+        "@type": "Photograph",
+        "title": "people6",
+        "description": "",
+        "keywords": "People photography",
+        "category": [
+            "People"
+        ],
+        "contentUrl": "/people/6.jpg",
+        "thumbnailUrl": "/people/featured.jpg",
+        "creator": {
+            "@type": "Person",
+            "title": "Emmett Fretwell",
+            "url": "https://www.emmettfretwell.com"
+        },
+        "copyrightHolder": {
+            "@type": "Person",
+            "title": "Emmett Fretwell",
+            "url": "https://www.emmettfretwell.com"
+        },
+        "license": "All Rights Reserved",
+        "creditText": "Photo by Emmett Fretwell"
+    },
+    {
+        "@type": "Photograph",
+        "title": "people7",
+        "description": "",
+        "keywords": "People photography",
+        "category": [
+            "People"
+        ],
+        "contentUrl": "/people/7.jpg",
+        "thumbnailUrl": "/people/featured.jpg",
+        "creator": {
+            "@type": "Person",
+            "title": "Emmett Fretwell",
+            "url": "https://www.emmettfretwell.com"
+        },
+        "copyrightHolder": {
+            "@type": "Person",
+            "title": "Emmett Fretwell",
+            "url": "https://www.emmettfretwell.com"
+        },
+        "license": "All Rights Reserved",
+        "creditText": "Photo by Emmett Fretwell"
+    },
+    {
+        "@type": "Photograph",
+        "title": "people8",
+        "description": "",
+        "keywords": "People photography",
+        "category": [
+            "People"
+        ],
+        "contentUrl": "/people/8.jpg",
+        "thumbnailUrl": "/people/featured.jpg",
+        "creator": {
+            "@type": "Person",
+            "title": "Emmett Fretwell",
+            "url": "https://www.emmettfretwell.com"
+        },
+        "copyrightHolder": {
+            "@type": "Person",
+            "title": "Emmett Fretwell",
+            "url": "https://www.emmettfretwell.com"
+        },
+        "license": "All Rights Reserved",
+        "creditText": "Photo by Emmett Fretwell"
+    },
+    {
+        "@type": "Photograph",
+        "title": "occasions1",
+        "description": "",
+        "keywords": "Occasions photography",
+        "category": [
+            "Occasions"
+        ],
+        "contentUrl": "/occasions/1.jpg",
+        "thumbnailUrl": "/occasions/featured.jpg",
+        "creator": {
+            "@type": "Person",
+            "title": "Emmett Fretwell",
+            "url": "https://www.emmettfretwell.com"
+        },
+        "copyrightHolder": {
+            "@type": "Person",
+            "title": "Emmett Fretwell",
+            "url": "https://www.emmettfretwell.com"
+        },
+        "license": "All Rights Reserved",
+        "creditText": "Photo by Emmett Fretwell"
+    },
+    {
+        "@type": "Photograph",
+        "title": "occasions2",
+        "description": "",
+        "keywords": "Occasions photography",
+        "category": [
+            "Occasions"
+        ],
+        "contentUrl": "/occasions/2.jpg",
+        "thumbnailUrl": "/occasions/featured.jpg",
+        "creator": {
+            "@type": "Person",
+            "title": "Emmett Fretwell",
+            "url": "https://www.emmettfretwell.com"
+        },
+        "copyrightHolder": {
+            "@type": "Person",
+            "title": "Emmett Fretwell",
+            "url": "https://www.emmettfretwell.com"
+        },
+        "license": "All Rights Reserved",
+        "creditText": "Photo by Emmett Fretwell"
+    },
+    {
+        "@type": "Photograph",
+        "title": "occasions3",
+        "description": "",
+        "keywords": "Occasions photography",
+        "category": [
+            "Occasions"
+        ],
+        "contentUrl": "/occasions/3.jpg",
+        "thumbnailUrl": "/occasions/featured.jpg",
+        "creator": {
+            "@type": "Person",
+            "title": "Emmett Fretwell",
+            "url": "https://www.emmettfretwell.com"
+        },
+        "copyrightHolder": {
+            "@type": "Person",
+            "title": "Emmett Fretwell",
+            "url": "https://www.emmettfretwell.com"
+        },
+        "license": "All Rights Reserved",
+        "creditText": "Photo by Emmett Fretwell"
+    }
+]
