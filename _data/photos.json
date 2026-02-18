@@ -208,29 +208,6 @@
     },
     {
         "@type": "Photograph",
-        "title": "nature10",
-        "description": "",
-        "keywords": "Wildlife & Nature photography",
-        "category": [
-            "Wildlife & Nature"
-        ],
-        "contentUrl": "/nature/10.jpg",
-        "thumbnailUrl": "/nature/featured.jpg",
-        "creator": {
-            "@type": "Person",
-            "title": "Emmett Fretwell",
-            "url": "https://www.emmettfretwell.com"
-        },
-        "copyrightHolder": {
-            "@type": "Person",
-            "title": "Emmett Fretwell",
-            "url": "https://www.emmettfretwell.com"
-        },
-        "license": "All Rights Reserved",
-        "creditText": "Photo by Emmett Fretwell"
-    },
-    {
-        "@type": "Photograph",
         "title": "nature11",
         "description": "",
         "keywords": "Wildlife & Nature photography",
